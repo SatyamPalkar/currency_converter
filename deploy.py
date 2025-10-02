@@ -44,7 +44,7 @@ def main():
         sys.exit(1)
     
     # Commit changes
-    commit_message = input("\n📝 Enter commit message (or press Enter for default): ").strip()
+    commit_message = input("\nEnter commit message (or press Enter for default): ").strip()
     if not commit_message:
         commit_message = "Deploy Elite Currency Exchange"
     
